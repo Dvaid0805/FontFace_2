@@ -2,6 +2,10 @@
     font-family: "Proxima Nova Condensed Regular";
     src: url("../fonts/Proxima\ Nova\ Extra\ Condensed\ Regular.otf") format("opentype");
     }
+    body{
+        position: relative;
+        overflow-x:hidden;
+    }
 .container{
     background-color: #454F53;
     padding-left: 70px;
@@ -60,4 +64,64 @@
     max-width:970px;
 
 }
-
+.form{
+    background-color:#000;
+    color:#fff;
+    height: 180px;
+    padding-top: 50px;
+}
+.form_label{
+    display: block;
+    font-size: 15px;
+    text-transform: uppercase;
+    color:#8F8F8F;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 4px;
+    margin-left: 65px;
+    font-family:"Proxima Nova Condensed Regular";
+    
+}
+.input_text{
+    display: block;
+    width:100%;
+    font-size: 40px;
+    background-color: #000;
+    box-sizing: border-box;
+    color:#fff;
+    border:none;
+    margin-top: 10px;
+    font-family: 'Playfair Display', serif;
+    outline: none;
+    border-bottom:2px solid #303030;
+    padding-bottom: 15px;
+}
+.input_text::placeholder{
+    color:#fff;
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+}
+.position{
+    position: absolute;
+    margin-top: -125px;
+    margin-left: 283px;
+    width:1200px;
+}
+.icon-bar .fa {
+    float: left;
+    width: 10%;
+    text-align: center;
+    padding: 13px 0;
+    transition: all 0.3s ease;
+    color: #8F8F8F;
+    font-size: 36px;
+    margin-left: 10px;
+  }
+.fa:hover{
+    color:white;
+}
+.icon-bar {
+    width: 100%;
+    background-color: #FBC02D;
+    overflow: auto;
+    margin-left: 100px;
+  }
